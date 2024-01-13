@@ -17,9 +17,9 @@ const HomeSection = () => {
             begins here
           </p>
 
-          <div className="flex flex-col md:flex-row items-start  gap-4 md:mt-[3rem] mt-[2rem]">
+          <div className="flex flex-col md:flex-row items-start  gap-4 md:mt-[3rem] mt-[2rem] w-full">
 
-            <Button className="bg-[#232323] hover:bg-[#a0a0a0e8] text-[#fff] md:text-[1.18319rem] text-[1rem] font-[700] md:px-[3.13688rem] px-0 md:py-7 py-5 rounded-full border-4 border-[#000] md:w-auto w-full">
+            <Button className="bg-[#232323] hover:bg-[#a0a0a0e8] text-[#fff] md:text-[1.18319rem] text-[1rem] font-[700] md:px-[3.13688rem] px-0 md:py-7 py-7 rounded-full border-4 border-[#000] md:w-auto w-full">
               Explore Now
             </Button>
             <Button className="bg-[#FFF] text-[#232323] hover:bg-[#a0a0a0] text-[1.18319rem] font-[700] px-[3.13688rem] py-7 rounded-full border-4 border-[#000] md:w-auto w-full">
