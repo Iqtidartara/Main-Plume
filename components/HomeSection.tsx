@@ -40,6 +40,7 @@ const HomeSection = () => {
             className=""
           />
         </div>
+        
       </main>
     </section>
   );
