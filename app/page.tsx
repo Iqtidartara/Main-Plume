@@ -1,7 +1,8 @@
+import Collections from "@/components/Collections";
 import Demo from "@/components/Demo";
 import HomeSection from "@/components/HomeSection";
 import Navbar from "@/components/Navbar";
-import Trial from "@/components/Trial";
+
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
    <HomeSection />
    </div>
   <Demo />
-  <Trial />
+  <Collections />
    </main>
   )
 }
