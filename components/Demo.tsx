@@ -5,7 +5,7 @@ import { url } from "inspector";
 
 const Demo = () => {
   return (
-    <section className="w-full py-16">
+    <section className="w-full">
       <div
       style={
         {
