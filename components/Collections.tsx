@@ -52,7 +52,7 @@ const Collections: React.FC = () => {
             {cardData.map((card, index) => (
               <div
                 key={index}
-                className="bg-[#EFDCC7] h-[397px] p-[3rem] rounded-tr-[4.75rem] rounded-bl-[4.75rem] flex flex-col lg:flex-row "
+                className="bg-[#EFDCC7] h-[397px] pl-[3rem] pt-[3rem] pr-0 pb-0 rounded-tr-[4.75rem] rounded-bl-[4.75rem] flex flex-col lg:flex-row "
               >
                 {/* Card content */}
                 <div className="w-full lg:w-[70%]">
@@ -73,15 +73,13 @@ const Collections: React.FC = () => {
                     src={card.imageSrc}
                     alt={`Card ${index + 1}`}
                     className="aspect-square object-contain object-center w-full max-w-[300px] max-h-[300px] overflow-hidden grow"
-                    width={300}
+                    width={400}
                     height={300}
                   />
                 </div>
               </div>
-              
             ))}
           </div>
-          
         </div>
       </main>
     </section>
