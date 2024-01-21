@@ -7,28 +7,28 @@ const cardData = [
     title: "Women",
     description:
       "Elevate Your Winter Style: Must-Have Fashion Essentials for Women. Stay Chic and Cozy with Our Latest Winter Collection",
-    imageSrc: "/shorcut.png",
+    imageSrc: "/card1.png",
     buttonText: "Shop Now",
   },
   {
     title: "Children",
     description:
       "Our enchanting dresses offer comfort and charm, perfect for your child's special occasions",
-    imageSrc: "/2a.png",
+    imageSrc: "/card2.png",
     buttonText: "Shop Now",
   },
   {
     title: "Men",
     description:
       "Revamp your look with our contemporary men's fashion, where comfort meets style. Elevate your confidence, one outfit at a time.",
-    imageSrc: "/3a.png",
+    imageSrc: "/card3.png",
     buttonText: "Shop Now",
   },
   {
     title: "New Collection",
     description:
       "Elevate your style with our stunning new collection. From timeless classics to bold trends, we have something for everyone.",
-    imageSrc: "/4a.png",
+    imageSrc: "/card4.png",
     buttonText: "Shop Now",
   },
   // Add more card data as needed
@@ -78,8 +78,10 @@ const Collections: React.FC = () => {
                   />
                 </div>
               </div>
+              
             ))}
           </div>
+          
         </div>
       </main>
     </section>
